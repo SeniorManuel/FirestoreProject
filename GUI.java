@@ -16,8 +16,8 @@ public class GUI extends JFrame {
         setLayout(new FlowLayout());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        rscoreLabel = new JLabel("RawScore: ");
-        tscoreLabel = new JLabel("TotalScore: ");
+        rscoreLabel = new JLabel("Raw Score: ");
+        tscoreLabel = new JLabel("Total Score: ");
         rawField = new JTextField(10);
         totalField = new JTextField(10);
         submit = new JButton("Save button");
