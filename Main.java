@@ -18,7 +18,7 @@ public class Main {
                      int total = Integer.parseInt(gui.totalField.getText());
                      fs.addScoreToEmmanuel(raw, total);
                  } catch (NumberFormatException ex) {
-                     System.out.println("Invalid number input.");
+                     System.out.println("Invalid number miguel.");
                  }
             }
         });
