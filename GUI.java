@@ -20,7 +20,7 @@ public class GUI extends JFrame {
         tscoreLabel = new JLabel("TotalScore: ");
         rawField = new JTextField(10);
         totalField = new JTextField(10);
-        submit = new JButton("Save");
+        submit = new JButton("Save button");
 
 //        loadButton = new JButton("Load Data");
 
@@ -42,7 +42,7 @@ public class GUI extends JFrame {
 //        add(loadButton);
 //        add(scrollPane);
 
-        setSize(450, 300);
+        setSize(800, 100);
         setVisible(true);
     }
 }
